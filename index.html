@@ -2,7 +2,8 @@
 <html lang="en"><head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Hotel - Bootstrap</title>
+    <title>Seriti Safari River Lodge</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -31,40 +32,47 @@
 </head>
 
 <body>
-	
-		<div class="container-fluid">
-			<div class="row"><!-- start header -->
-				<div class="span5 logo">
-					<a href="index.html">
-					<div class="row">
-						<div class="span5 logo">
-							<img src="images/seritilogocar.jpg" alt="" width="200" height="100"/>						</div>
-					</div>
-					</a>
-				</div>		
-				<div class="span7 pull-right main_menu">
-					<div class="navbar">
-						<div class="container">
-							 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</a>
+	<style>
+  body {
+    padding-top: 50px;
+  }
+  @media (max-width: 980px) {
+    body {
+      padding-top: 20px;
+    }
+  }
+</style>
 
-							<div class="nav-collapse">
-								<ul class="nav nav-pills">
-									<li class="active"><a href="index.html">Home</a></li>
-									<li class=""><a href="rooms.html">Accommodation</a></li>
-									<li class=""><a href="facilities.html">Services</a></li>
-									<li class=""><a href="gallery.html">Gallery</a></li>
-									<li class=""><a href="map.html">Location</a></li>
-									<li class=""><a href="book-start.html">Book</a></li>
-								</ul>
-							</div><!-- /.nav-collapse -->
-						</div>
-					</div><!-- /navbar -->
+		<div class="container-fluid">
+		  <div class="row"><!-- start header -->
+			<div class="span4 logo">
+							<a href="index.html"><img src="images/seritilogocar.jpg" alt="" width="200" height="100"/></a>						
+            </div>
+					
+					<div class="row">
+					  <div class="span8 pull-right main_menu">
+					    <div class="navbar">
+					      <div class="container pull-right"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+					        <div class="nav-collapse">
+					          <ul class="nav nav-pills">
+					            <li class="active"><a href="index.html">Home</a></li>
+					            <li class=""><a href="rooms.html">Accommodation</a></li>
+					            <li class=""><a href="facilities.html">Services</a></li>
+					            <li class=""><a href="gallery.html">Gallery</a></li>
+					            <li class=""><a href="map.html">Location</a></li>
+					            <li class=""><a href="book-start.html">Book</a></li>
+				              </ul>
+				            </div>
+					        <!-- /.nav-collapse -->
+				          </div>
+				        </div>
+					    <!-- /navbar -->
+				      </div>
+						
+					
+					
 				</div>
-			</div><!-- end header --><div class="row-fluid slideshow-row">
+</div><!-- end header --><div class="row-fluid slideshow-row">
 	
 	<div class="span12 slideshow">
 		<div class="slider-wrapper theme-default">
@@ -81,125 +89,80 @@
 </div>
 <div class="row-fluid home">
 	<div class="span12">
-	  <h2>The ultimate experience. <span>Book Now</span><br>
+	  <h2>The ultimate experience. <a class="btn btn-primary btn-large book-now" href="book.html">Book now!</a><br>
+        
 </h2>
 	</div>
 </div>
-<form class="form-inline">
-	<div class="row-fluid home">
-		<div class="span3">
-						<div class="room_selector" data-price="34" data-adults="1" data-kids="1">
-				<h5><a href="#" class="pull-left"><i class="icon-chevron-left"></i></a>Single room<a href="#" class="pull-right "><i class="icon-chevron-right"></i></a></h5>
-				<a href="listings.html"><img src="images/pool.jpg" alt="" /></a>
-				<p>All single rooms have one single bed and sleeps one adult. A 25-inch TV is included.</p>
-			</div>
-		  <div class="room_selector" data-price="48"  data-adults="2" data-kids="1" style="display: none;">
-			  <h5><a href="#" class="pull-left "><em class="icon-chevron-left"></em></a>Double Room<a href="#" class="pull-right "><em class="icon-chevron-right"></em></a></h5>
-		    <a href="listings.html"><img src="images/viewfrombed.jpg" alt="" /></a>
-		    <p>All double rooms have a single double bed and sleeps two adults.</p>
-			</div>		
-			<div class="room_selector" data-price="62" data-adults="3" data-kids="2" style="display: none;">
-				<h5><a href="#" class="pull-left "><i class="icon-chevron-left"></i></a>Triple Room<a href="#" class="pull-right "><i class="icon-chevron-right"></i></a></h5>
-				<a href="listings.html"><img src="images/frontlodge.jpg" alt="" /></a>
-			  <p>All triple rooms have one double bed and a single bed and sleeps up to three people. </p>
-			</div>	
-			<div class="room_selector" data-price="72" data-adults="4" data-kids="3" style="display: none;">
-				<h5><a href="#" class="pull-left "><i class="icon-chevron-left"></i></a>Luxury Room<a href="#" class="pull-right "><i class="icon-chevron-right"></i></a></h5>
-				<a href="listings.html"><img src="css/images/rooms/luxury_room.jpg" alt="" /></a>
-				<p>All rooms have two double beds and a balcony. Sleeps up to four adults.</p>
-			</div>		
-			<div class="room_selector" data-price="97" data-adults="4" data-kids="3" style="display: none;">
-			  <h5><a href="#" class="pull-left "><em class="icon-chevron-left"></em></a>Private pool room<a href="#" class="pull-right "><em class="icon-chevron-right"></em></a></h5>
-			  <a href="listings.html"><img src="css/images/rooms/private_pool.jpg" alt="" /></a>
-			  <p>A private pool, two double beds and a sea view. Sleeps up to four adults.</p>
-			</div>
-			<div class="room_selector" data-price="128" data-adults="5" data-kids="4" style="display: none;">
-			  <h5><a href="#" class="pull-left "><em class="icon-chevron-left"></em></a>3 bedroom self catering<a href="#" class="pull-right "><em class="icon-chevron-right"></em></a></h5>
-			  <a href="listings.html"><img src="css/images/rooms/ulusaba-safari-lodge-bedroom-sabi-sands (1).jpg" alt="" /></a>
-			  <p>All villas have an en-suite bathroom and sundeck. Sleeps up to five adults.</p>
-			</div>
-		</div>		
-		<div class="span3 home_calendar">
-						<div class="form-horizontal">			
-				<div class="control-group">
-					<label class="control-label pull-left" for="inputEmail">Arrive</label>
-					<div class="controls">
-						<input type="text" value="" class="span2 check-in-date" value="2012/11/22"/>
+	                
+ <section class="margin-bottom">
+		<div class="container-fluid">
+			<div class="container">
+				<p>Seriti River Lodge, is situated in South Africa’s premier Mjejane Game Reserve. Positioned on the banks of the Crocodile River, between the Malelane and Crocodile Bridge gates the lodge enjoys uninterrupted river front views. Mjejane Game Reserve has a renowned reputation in this southern area of the Kruger National Park for it’s Big 5 viewing. Guests at Mjejane Game Reserve enjoy the use of an exclusive private bridge with direct private access into the Kruger National park. Seriti River Lodge is positioned on a 10km stretch of pristine river front allowing perfect conditions for amazing game viewing. Wake up to spectacular sunrises whilst watching the animals start the days activities. Go for a game drive with your private Ranger in your own open game viewing vehicle . Relax on your deck, take a dip in your pool and enjoy a braai in your boma under a magical African starry night sky. Go to sleep with the sound of the African bush surrounding you.</p>
+                <br/>
+               </div>
+               <div class="container">
+				<div class="row">
+					<div class="span3">
+						<div class="lodge-images">
+							<img src="images/frontlodge.jpg" alt="" width="200" height="156" />
+						</div>
+					</div>
+					<div class="span3">
+						<div class="lodge-images">
+							<img src="images/livingroom3.jpg" alt="" width="200" />
+						</div>
+					</div>
+					<div class="span3">
+						<div class="lodge-images">
+							<img src="images/patio.jpg" alt="" width="200" />
+						</div>
+					</div>
+                    
+                    <div class="span3">
+						<div class="lodge-images">
+							<img src="images/patio.jpg" alt="" width="200" />
+						</div>
 					</div>
 				</div>
+                 <!--- end of first row -->
+                 
+                 <br/>
+				</div>
+                 <div class="container">
+				<div class="row">
+					<div class="span3">
+						<div class="animal-images">
+							<img src="images/lion-head_1.jpg" alt="Lion" width="200" title="Lion" />
+						</div>
+					</div>
+					<div class="span3">
+						<div class="animal-images">
+							<img src="images/rhino2_1.jpg" alt="Rhino" width="200" />
+						</div>
+					</div>
+					<div class="span3">
+						<div class="animal-images">
+							<img src="images/leperd.jpg" alt="Leopard" width="200" />
+						</div>
+					</div>
+				</div><!--- end of second row -->
+              
 			</div>
-			<div class="datepicker_from"></div>
-		</div>
-		<div class="span3 home_calendar">
-						<div class="form-horizontal">			
-				<div class="control-group">
-					<label class="control-label pull-left" for="inputEmail">Depart</label>
-					<div class="controls">
-						<input type="text" value="" class="span2 check-out-date" value="2012/11/22"/>
-					</div>
-				</div>
-			</div>
-			<div class="datepicker_to"></div>
-		</div>
-
-		<div class="span3">
-			<div class="form-horizontal">
-				
-				<div class="control-group">
-					<label class="control-label" for="inputEmail">Rooms</label>
-					<div class="controls">
-						<select class="span1 select_rooms">
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-						</select>
-					</div>
-				</div>			
-				
-				
-				<div class="control-group">
-					<label class="control-label" for="inputEmail">Adults per room</label>
-					<div class="controls">
-						<select class="span1 select_adults">
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-						</select>
-					</div>
-				</div>
-				
-				<div class="control-group">
-					<label class="control-label" for="inputEmail">Kids per room</label>
-					<div class="controls">
-						<select class="span1 select_kids">
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-						</select>
-					</div>
-				</div>
-				
-				
-
-				</div>
-		<div id="total_price" class="price">R5000</div>
-		<a class="btn btn-primary btn-large book-now" href="book.html">Book now!</a>
-	</div>		
+	</div>
+	</section>
+    
+	
 </div>	
-</form>
+
 <hr />
+<div class="container">
 <div class="row-fluid">
 	
 	<div class="span3">
 	  <h3><span>A</span>ccomodation</h3>
 	  <a href="rooms.html"><img src="images/livingroom3.jpg" alt="" width="208" height="156" /></a>
-	  <p>3 Bedroom self catering</p>
+	  <p>3 Bedroom self catering lodge</p>
 	</div>	
     <div class="span3">
 	  <h3><span>S</span>ervices</h3>
@@ -209,13 +172,14 @@
 	<div class="span3">
 		<h3><span>G</span>allery</h3>
 		<a href="promotions.html"><img src="images/buffola.jpg" alt="" width="208" height="156" /></a>
-	  <p>More than you can <b>Imagine</b>!</p>
+	  <p>Wildlife Gallery</p>
 	</div>		
 	<div class="span3">
-	  <h3>Location</h3>
+	  <h3><span>L</span>ocation</h3>
 		<a href="map.html"><img src="css/images/map-kruger-parkpurple_4.jpg" alt="" width="193" height="156" /></a>
-	  <p>We're easily accessible - go anywhere quickly.</p>
-	</div>			
+	  <p>How to get here</p>
+	</div>
+  			
 	<div class="row">
 	  <div class="span12 what_people_say">
 	    <div id="quotes">
@@ -231,9 +195,9 @@
         </div>
       </div>
     </div>
-	
+	</div>
 </div>
-</div> <!-- /container -->
+ <!-- /container -->
 
 <footer>
 	<div class="container">
@@ -248,7 +212,7 @@
 	    Email: info@seritiriverlodge.co.za</p>
 
 		<ul data-facebook-action="recommend" data-url="#" class="socialcount socialcount-small recommend grade-a">
-		  <li class="facebook"><a title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=#"><span class="social-icon icon-facebook"></span><span class="count"></span></a></li>
+		  <li class="facebook"><a title="Share on Facebook" href="https://www.facebook.com/seritiriverlodge/"><span class="social-icon icon-facebook"></span><span class="count"></span></a></li>
 			<li class="twitter"><a title="Share on Twitter" href="https://twitter.com/intent/tweet?text=#"><span class="social-icon icon-twitter"></span><span class="count"></span></a></li>
 			<li class="googleplus"><a title="Share on Google Plus" href="https://plus.appsarea.com/share?url=#"><span class="social-icon icon-googleplus"></span><span class="count"></span></a></li>
 		</ul>
